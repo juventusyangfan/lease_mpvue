@@ -1,0 +1,14 @@
+.clearfix:after, .clearfix:before {
+    content: ".";
+    height: 0;
+    line-height: 0;
+    clear: both;
+    display: block;
+    visibility: hidden;
+}
+.floatL {
+    float: left;
+}
+.floatR {
+    float: right;
+}
